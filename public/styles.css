@@ -1,0 +1,72 @@
+input{
+  margin-left: 20px
+}
+
+body{
+  /*background-color: yellow*/
+  background: url("http://wallpaper-download.net/wallpapers/abstract-wallpapers-orange-light-background-wallpaper-35423.jpg");
+    background-size: 1920px 900px;
+    background-repeat: no-repeat;
+    background-opacity: 0.2;
+}
+
+.div1{
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.div2{
+  float: right;
+  width: 800px;
+  margin-right: 50px;
+}
+
+h1{
+  color: orange;
+  font-family: 'Lucida Console';
+  font-size: 300%;
+}
+
+h2{
+  color: orange;
+}
+
+input {
+  padding: 5px;
+  border-width: 3px;
+  margin: 10px;
+  float: left
+}
+
+textarea{
+  width: 500px;
+}
+
+button{
+  margin: 10px;
+}
+ul{
+  float: left;
+  border: #FF7E14 solid thick;
+  border-width: 10px;
+  border-radius: 20px;
+  background-color: #FF7E14;
+  width: 800px;
+  height: 500px;
+  overflow-y: auto;
+
+}
+
+/* nav ul{height:200px; width:18%;}
+nav ul{overflow:hidden; overflow-y:scroll;} */
+
+li{
+  font-family: Arial;
+  /*font-weight: bold;*/
+  outline: orange solid thin;
+  background-color: white;
+  width: 800px
+  //word-wrap: break-word;
+  white-space: nowrap;
+}
